@@ -1,6 +1,10 @@
 h1{
   color: lightblue;
 }
+
+h2{
+  color: darkgreen;
+}
 body{
   color:rgb(65,75,85);
   font-family: arial;
@@ -8,8 +12,8 @@ body{
 }
 
 div {
-  min-height: 10vh;
-  width: 100vw;
+  /*min-height: 10vh;
+  /*width: 100vw;*/
   border: 1px solid lightblue;
 }
 h1, h2 {
@@ -21,14 +25,14 @@ h1 {
 h2 {
   font-size: 2.5em;
 }
-img {
+/* img {
   max-width: 200px;
   display: flex;
   padding: 10px;
   margin: 0 auto;
   border-radius: 130px;
   border: 1px solid red;
-}
+} */
 p {
   width: 40%;
   margin:  10vh 10vw;
@@ -39,6 +43,7 @@ a {
   color: rgb(255,255,102);
 }
 
+/*
 ol {
   list style: none;
   padding: 10%;
@@ -48,7 +53,7 @@ ol {
   justify-content: space-evenly;
   background-color: black;
   color: white
-}
+} */
 
 li#lower{
   margin-top: 7%
@@ -81,7 +86,6 @@ li:hover {
 .column {
   float: left;
   width: 50%;
-  padding: 5px;
 }
 
 .row::after {
